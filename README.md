@@ -4,13 +4,15 @@ This behavior pack saves player's death coordinates as scoreboard values and tel
 
 ## Installing the pack:
 
+Download the latest release from the [Releases Page](https://github.com/mittens4all/Return-from-Death/releases)
+
 Add the Return from Death Pack add-on to your behavior packs on your world. Behavior packs may disable achievements, but editing the world with an NBT editor can re-enable achievements when uploading your world to a realm.
 
 Re-enable achievements on either pc or mobile with the free NBT editor [Dovetail](https://github.com/Offroaders123/Dovetail)
 
 ## Example Titleraw
 
-```json
+```yaml
 titleraw @a actionbar {"rawtext":[{"text":"§l§4Death Coordinates§r\n"}, {"text":"§l§6X§r: "}, {"score":{"name":"*","objective":"mit:x.death"}}, {"text":" §l§6Y§r: "}, {"score":{"name":"*","objective":"mit:y.death"}}, {"text":" §l§6Z§r: "}, {"score":{"name":"*","objective":"mit:z.death"}}, {"text":"\nAlive: "}, {"score":{"name":"*", "objective":"mit:alive"}}, {"text":"\nRespawn: "}, {"score":{"name":"*", "objective":"mit:respawn"}}, {"text":"\nDeaths: "}, {"score":{"name":"*", "objective":"mit:deaths"}}, {"text":"\nPlayer ID: "}, {"score":{"name":"*", "objective":"mit:id"}}]}
 ```
 
