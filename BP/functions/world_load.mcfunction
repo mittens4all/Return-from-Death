@@ -13,6 +13,7 @@ execute if score .Initialised mit:world matches 0 run scoreboard objectives add 
 execute if score .Initialised mit:world matches 0 run scoreboard objectives add mit:z.death dummy
 execute if score .Initialised mit:world matches 0 run scoreboard objectives add mit:alive dummy
 execute if score .Initialised mit:world matches 0 run scoreboard objectives add mit:deaths dummy
+execute if score .Initialised mit:world matches 0 run scoreboard objectives add mit:dimension dummy
 execute if score .Initialised mit:world matches 0 run scoreboard objectives add mit:id dummy
 execute if score .Initialised mit:world matches 0 run scoreboard objectives add mit:respawn dummy
 

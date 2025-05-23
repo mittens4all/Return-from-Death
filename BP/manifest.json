@@ -1,10 +1,10 @@
 {
     "format_version": 2,
     "header": {
-        "description": "v1.0.0 - Pack by Mittens4all - Players respawn at their death coordinates.",
+        "description": "v1.0.1 - Pack by Mittens4all - Players respawn at their death coordinates.",
         "name": "Return from Death",
         "uuid": "7892bf84-4a6e-462b-97ad-79d00b3a3456",
-        "version": [ 1, 0, 0 ],
+        "version": [ 1, 0, 1 ],
         "min_engine_version": [ 1, 21, 80 ]
     },
     "modules": [

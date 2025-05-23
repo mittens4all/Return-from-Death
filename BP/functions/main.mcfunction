@@ -5,6 +5,8 @@ scoreboard players set @e[type=player] mit:alive 1
 
 scoreboard players add @a[scores={mit:alive=0}] mit:deaths 1
 
+execute as @a[scores={mit:alive=0}] run function dimension
+
 execute as @a[scores={mit:alive=0}] run function coords_to_scores
 
 scoreboard players set @a[scores={mit:alive=0}] mit:alive 2
@@ -20,6 +22,8 @@ scoreboard players set @e[type=player] mit:respawn 0
 scoreboard players add @a mit:id 0
 
 scoreboard players set @a[scores={mit:id=0}] mit:deaths 0
+
+scoreboard players set @a[scores={mit:id=0}] mit:dimension 1
 
 execute if entity @a[scores={mit:id=0}] run scoreboard players add .Total mit:id 1
 
