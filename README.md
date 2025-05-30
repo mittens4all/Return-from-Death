@@ -4,7 +4,9 @@ This behavior pack saves player's death coordinates as scoreboard values and tel
 
 ## Installing the pack:
 
-Download the latest release from the [Releases Page](https://github.com/mittens4all/Return-from-Death/releases)
+You may download the latest release from the [Releases Page](https://github.com/mittens4all/Return-from-Death/releases)
+
+Return from Death v1.0.2 changed the functionaility so that when the player dies they respawn at their death location. Upon the next death, the player will respawn at their respawn location such as a bed, respawn anchor, or if not set the world spawn.
 
 Add the Return from Death Pack add-on to your behavior packs on your world. Behavior packs may disable achievements, but editing the world with an NBT editor can re-enable achievements when uploading your world to a realm.
 
@@ -13,7 +15,7 @@ Re-enable achievements on either pc or mobile with the free NBT editor [Dovetail
 ## Example Titleraw
 
 ```yaml
-titleraw @a actionbar {"rawtext":[{"text":"§l§bDeath Coordinates§r\n"}, {"text":"§l§6X§r: "}, {"score":{"name":"*","objective":"mit:x.death"}}, {"text":" §l§6Y§r: "}, {"score":{"name":"*","objective":"mit:y.death"}}, {"text":" §l§6Z§r: "}, {"score":{"name":"*","objective":"mit:z.death"}}, {"translate":"\nDeath Dimension: %%%%s","with":{"rawtext":[{"score":{"name":"*","objective":"mit:dimension"}}, {"text":"§l§6No Deaths§r"}, {"text":"§l§2Overworld§r"}, {"text":"§l§4Nether§r"}, {"text":"§l§5The End§r"}]}}, {"text":"\nAlive: "}, {"score":{"name":"*", "objective":"mit:alive"}}, {"text":"\nRespawn: "}, {"score":{"name":"*", "objective":"mit:respawn"}}, {"text":"\nDeaths: "}, {"score":{"name":"*", "objective":"mit:deaths"}}, {"text":"\nPlayer ID: "}, {"score":{"name":"*", "objective":"mit:id"}}]}
+titleraw @a actionbar {"rawtext":[{"text":"§l§bDeath Coordinates§r\n"}, {"text":"§l§6X§r: "}, {"score":{"name":"*","objective":"mit:x.death"}}, {"text":" §l§6Y§r: "}, {"score":{"name":"*","objective":"mit:y.death"}}, {"text":" §l§6Z§r: "}, {"score":{"name":"*","objective":"mit:z.death"}}, {"translate":"\nDeath Dimension: %%%%s","with":{"rawtext":[{"score":{"name":"*","objective":"mit:dimension"}}, {"text":"§l§6No Deaths§r"}, {"text":"§l§2Overworld§r"}, {"text":"§l§4Nether§r"}, {"text":"§l§5The End§r"}]}}, {"text":"\nAlive: "}, {"score":{"name":"*", "objective":"mit:alive"}}, {"text":"\nRespawn: "}, {"score":{"name":"*", "objective":"mit:respawn"}}, {"text":"\nRevive: "}, {"score":{"name":"*", "objective":"mit:revive"}}, {"text":"\nDeaths: "}, {"score":{"name":"*", "objective":"mit:deaths"}}, {"text":"\nPlayer ID: "}, {"score":{"name":"*", "objective":"mit:id"}}]}
 ```
 
 ## Authors
